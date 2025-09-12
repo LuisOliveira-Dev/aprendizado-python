@@ -28,6 +28,15 @@ peso = 65
 imc = peso / (altura ** 2)
 imc = round(imc, 2)
 
+#input: lê dados de acordo com o usuário
+
+nome_2 = input('Digite seu nome:')
+numero = input('Digite um número:')
+
+#váriavel pra estrutura condicional
+
+entrada = input('"entrada" ou "sair"?')
+
 #Print referente as variaveis de int, float e operadores lógicos 
 
 print('Nome:', nome)
@@ -49,7 +58,27 @@ print(' ')
 #Print referente ao imc
 
 print('IMC:', imc)
-print('"Já sei!"')
+
+#Print referente ao input
+
+print(f'Nome_2: {nome_2}')
+print(f'Número: {numero}')
+
+"""
+Estruturas condicionais:
+if: se
+elif: se não se
+else: se não
+"""
+
+if entrada == 'entrada':
+    print('você entrou no sistema')
+elif entrada == 'sair':
+    print('você saiu do sistema')
+else:
+    print('Você não digitou entrada nem saída.')
+
+
 
 
 
