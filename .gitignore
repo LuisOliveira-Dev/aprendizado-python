@@ -1,0 +1,16 @@
+# Bytecode compilado
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
