@@ -53,6 +53,7 @@ igual = 'a' == 'a'
 diferente = 'a' != 'b'
 
 #váriavel referente a comparação
+
 a = int(input("Digite um valor:")) 
 b = int(input("Digite outro valor:"))
 
@@ -108,7 +109,6 @@ if a > b:
 else:
     print('B é maior que A')
 
-#print referente aos operadores relacionais
 print(' ')
 print(maior)
 print(menor)
