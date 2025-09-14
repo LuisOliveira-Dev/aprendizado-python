@@ -8,7 +8,7 @@ ano_nascimento = 2005
 maior_de_idade = idade > 18
 altura_em_metros = 1.80
 
-#essas variáveis contém uma operação matemática com principios de operadores aritméticos
+#essas variáveis contém uma operação matemática com principios de operadores aritméticos e ordem de precedência
 
 conta_1 = (1 + 1) ** (5 + 5) #'1024'
 conta_2 = 1 + 1 ** 5 + 5 #'7'
@@ -32,6 +32,25 @@ imc = round(imc, 2)
 
 nome_2 = input('Digite seu nome:')
 numero = input('Digite um número:')
+
+"""
+Operadores Relacionais:
+
+OP - Significado: Exemplo(True)
+maior - 2 > 1
+menor - 2 < 1
+maior ou igual - 2 >= 1
+menor ou igual - 2 <= 2
+igual - 'a' == 'a'
+diferente - 'a' != 'b'
+"""
+
+maior = 2 > 1
+menor = 2 < 1
+maior_ou_igual = 2 >= 1
+menor_ou_igual = 2 <= 1
+igual = 'a' == 'a'
+diferente = 'a' != 'b'
 
 #váriavel pra estrutura condicional
 
@@ -77,6 +96,15 @@ elif entrada == 'sair':
     print('você saiu do sistema')
 else:
     print('Você não digitou entrada nem saída.')
+
+#print referente aos operadores relacionais
+print(' ')
+print(maior)
+print(menor)
+print(maior_ou_igual)
+print(menor_ou_igual)
+print(igual)
+print(diferente)
 
 
 
