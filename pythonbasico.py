@@ -14,7 +14,7 @@ conta_1 = (1 + 1) ** (5 + 5) #'1024'
 conta_2 = 1 + 1 ** 5 + 5 #'7'
 
 """
-Cálculo IMC : IMC = peso / altura ** 2
+Cálculo IMC (Exercício): IMC = peso / altura ** 2
 
 Argumentos:
     peso (float): Peso em quilogramas.
@@ -51,6 +51,10 @@ maior_ou_igual = 2 >= 1
 menor_ou_igual = 2 <= 1
 igual = 'a' == 'a'
 diferente = 'a' != 'b'
+
+#váriavel referente a comparação
+a = int(input("Digite um valor:")) 
+b = int(input("Digite outro valor:"))
 
 #váriavel pra estrutura condicional
 
@@ -96,6 +100,13 @@ elif entrada == 'sair':
     print('você saiu do sistema')
 else:
     print('Você não digitou entrada nem saída.')
+
+#Exercicio referente a operadores relacionais
+
+if a > b:
+    print('A é maior que B')
+else:
+    print('B é maior que A')
 
 #print referente aos operadores relacionais
 print(' ')
