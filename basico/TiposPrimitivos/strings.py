@@ -6,3 +6,5 @@ print ("Luis Henrique")
 
 #Escape
 print ("Luis \"Henrique")
+
+#O print imprime as informações do escopo no console
