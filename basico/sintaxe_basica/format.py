@@ -1,4 +1,10 @@
-#Exemplo de formatação de números(casas decimais)
+#Exemplo de formatação de strings e casas decimais
+a = 'A'
+b = 'B'
+c = 1.1
+string = 'a = {0} b = {1} c= {2:.2f}'
+formato = string.format(a, b, c)
 
-altura = 1.80
-print(f'Altura:{altura:.2f}')
+print(formato)
+
+
